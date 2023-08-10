@@ -91,9 +91,20 @@
                                             <action selector="btnSignOutAction:" destination="z2f-Fx-1GT" eventType="touchUpInside" id="r1I-ai-zWg"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBw-Wd-k1M">
+                                        <rect key="frame" x="121.66666666666669" y="0.0" width="150" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="OXm-VD-Td8"/>
+                                            <constraint firstAttribute="height" constant="44" id="VFJ-WL-wWb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="zBw-Wd-k1M" firstAttribute="centerX" secondItem="5Sv-Eq-MVu" secondAttribute="centerX" id="63s-ct-fDn"/>
                                     <constraint firstItem="rhu-V3-Qiu" firstAttribute="centerY" secondItem="5Sv-Eq-MVu" secondAttribute="centerY" id="9yQ-r7-BRn"/>
                                     <constraint firstAttribute="trailing" secondItem="rhu-V3-Qiu" secondAttribute="trailing" constant="17" id="Qz7-Xd-rJe"/>
                                     <constraint firstAttribute="height" constant="44" id="uEx-S8-83U"/>
@@ -137,12 +148,23 @@
                                             <action selector="btnSignOutAction:" destination="cIq-Rh-930" eventType="touchUpInside" id="ejL-MW-3J2"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAw-Pt-GXt">
+                                        <rect key="frame" x="121.66666666666669" y="0.0" width="150" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="efh-Cl-BDZ"/>
+                                            <constraint firstAttribute="width" constant="150" id="t3V-f2-R34"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="5y8-Jx-nYR"/>
                                     <constraint firstItem="qI5-nN-MTa" firstAttribute="centerY" secondItem="ICm-4l-ao5" secondAttribute="centerY" id="LZ0-U0-ahu"/>
                                     <constraint firstAttribute="trailing" secondItem="qI5-nN-MTa" secondAttribute="trailing" constant="17" id="f4J-yC-C0W"/>
+                                    <constraint firstItem="dAw-Pt-GXt" firstAttribute="centerX" secondItem="ICm-4l-ao5" secondAttribute="centerX" id="puS-EI-8ds"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -157,6 +179,15 @@
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="bBP-Vu-nFV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RU6-F4-VhU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34m-Ql-Ghv">
+                    <rect key="frame" x="0.0" y="0.0" width="150" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="6Wy-jw-vMO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </objects>
             <point key="canvasLocation" x="3221" y="-247"/>
         </scene>

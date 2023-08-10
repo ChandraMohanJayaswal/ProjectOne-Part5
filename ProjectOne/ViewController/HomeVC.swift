@@ -14,7 +14,7 @@ class HomeVC: BaseVC {
     }
     
     @IBAction func btnSignOutAction(_ sender: Any) {
-        self.navigationController?.popViewController(animated: false)
+        self.moveToLoginVC()
     }
     
 }

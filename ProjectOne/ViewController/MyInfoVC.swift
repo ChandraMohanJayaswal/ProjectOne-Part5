@@ -21,6 +21,6 @@ class MyInfoVC: BaseVC {
     }
     
     @IBAction func btnBackAction(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
+        self.moveToLoginVC()
     }
 }
